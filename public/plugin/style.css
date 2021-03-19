@@ -1,0 +1,375 @@
+/* Search icon */
+/*.search{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm{
+    width: 75%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus{
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}*/
+  
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+#shoppingIcon {
+  /*color: #fff;*/
+  /*position: absolute;*/
+  /*top: 10px;*/
+  /*right: 200px;*/
+  /*transform: rotateY(180deg);*/
+  padding-right:40px;
+}
+
+#count{
+  color: #fff;
+  background-color: red;
+  padding: 1px 6px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  /*position: absolute;
+  left: 820px;
+  top: 0px;*/
+  /*transform: rotateY(180deg);*/
+}
+
+.header{
+    background-color: #eeeeef;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius:10px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color:#aaaaaf;}
+.signin:hover .dropdown-content {display: block;}
+
+
+#navone{
+    background-color: #aaaaaf;
+}
+
+#Carousel2{
+    z-index:-1;
+}
+
+#project img:hover{
+    transform: scale(1.1);
+}
+
+.box{
+  box-shadow: 0 0 25px rgba(33,33,33,.2); 
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
+.carousel_text{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+.carousel_text{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+  }
+}
+
+.title{
+  /*font-family: 'Crimson Text', serif;*/
+  font-family: 'Libre Baskerville', serif;
+}
+
+/*about n contact font size*/
+.fontss{
+  font-size:22px;
+  text-align: justify;
+}
+
+.purchase{
+  margin-bottom: 0px;
+}
+
+.table_custom{
+  margin-bottom: 0px;
+}
+/*
+============================================
+*/
+
+/*hr after title*/
+
+hr.divided{
+  width: 90px;
+  margin: auto;
+  border: 1px solid #046307;
+}
+
+.purchasefooter{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+
+
+
+/*
+============================================
+*/
+
+/*add to cart on index n item*/
+.addtoCart:hover{
+  box-shadow: 0 0 18px rgba(0,0,255,.2);
+  transform: scale(1.1);
+}
+.addtoCarttwo:hover{
+  box-shadow: 0 0 18px rgba(0,0,255,.2);
+  transform: scale(1.1);
+}
+/*
+============================================
+*/
+
+/*detail to cart on index n item*/
+.detailbtn:hover{
+  box-shadow: 0 0 18px rgba(0,0,255,.2);
+  transform: scale(1.1);
+}
+/*
+============================================
+*/
+
+/*rgbtn lgin n reg*/
+.rgbtn:hover{
+  box-shadow: 0 0 18px rgba(0,0,255,.2);
+  transform: scale(1.1);
+}
+/*
+============================================
+*/
+
+/*login*/
+#log:hover{
+  box-shadow: 0 0 18px rgba(0,0,255,.2);
+  transform: scale(1.1);
+}
+/*
+============================================
+*/
+
+/*reg*/
+#rg:hover{
+  box-shadow: 0 0 18px rgba(0,0,255,.2);
+  transform: scale(1.1);
+}
+/*
+============================================
+*/
+
+/*forget password in login*/
+#fb:hover{
+  color:green;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
